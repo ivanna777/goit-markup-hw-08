@@ -1,0 +1,24 @@
+.subtitle {
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 1.179;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: $title-name-color;
+
+    margin-right: auto;
+    margin-bottom: 30px;
+}
+
+@media screen and (min-width: 1200px) {
+    .subtitle {
+        font-size: 36px;
+        line-height: 1.167;
+
+        margin-bottom: 50px;
+    }
+}
+
+
+
+

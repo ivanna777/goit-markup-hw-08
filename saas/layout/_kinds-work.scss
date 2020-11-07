@@ -1,0 +1,41 @@
+@media screen and (max-width: 1199px) {
+.kinds-work {
+    display: none;
+}
+}
+
+@media screen and (min-width: 1200px) {
+.kinds-work {
+    padding-bottom: 94px;
+
+    &-list{
+        display: flex;
+    }
+
+    &-list-item:not(:last-child) {
+        margin-right: 30px;
+    }
+
+    &-list-item {
+        position: relative;
+    }
+
+    &-description {
+        width: 370px;
+        height: 70px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background: rgba(47, 48, 58, 0.8);
+        font-style: normal;
+        font-weight: bold;
+        font-size: 14px;
+        line-height: 1.143;
+        text-transform: uppercase;
+        color: #FFFFFF;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+    }
+ }
+}
