@@ -7,14 +7,13 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.css">
     <link
     rel="stylesheet"
-    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
-  />
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./css/portfolio.min.css">
 </head>
 <body>
  <!--HEADER-->
- <header class="header">
+ <!-- <header class="header">
      <div class="container">
         <nav class="navigation">
             <a class="header-logo link" href="./index.html" aria-label="логотип WebStudio"><span class="logo-web">Web</span>Studio</a>
@@ -51,14 +50,14 @@
           </address>
      </div>
     
-  </header>
+  </header> -->
 
   <main>
 
       <!--PORTFOLIO -->
 
       <section class="portfolio">
-          <div class="container first">
+          <!-- <div class="container first">
             <ul class="portfolio-filter-list list">
                 <li class="portfolio-filter-item">
                     <button class="btn-filter" type="button">Все</button>  
@@ -80,14 +79,20 @@
                     <button class="btn-filter" type="button">Маркетинг</button>  
                 </li>
             </ul>
-          </div>
+          </div> -->
 
-          <div class="container">
+          <!-- <div class="container">
             <ul class="portfolio-projects-list list">
                 <li class="portfolio-projects-item">
                     <div class="portfolio-projects-item-wrapper">
-                      <img class="portfolio-projects-img" src="./photos/portfolio/tehnokriak.png" 
+                      <picture>
+                        <source srcset="./photos/portfolio/technokriak-descktop.png 1x, ./photos/portfolio/technokriak-descktop@2x.jpg 2x" media="(min-width: 1200px)">
+                        <source srcset="./photos/portfolio/technokriak-tablet.jpg 1x, ./photos/portfolio/technokriak-tablet@2x.jpg 2x" media="(min-width: 768px)">
+                        <source srcset="./photos/portfolio/technokriak-mobile.jpg 1x, ./photos/portfolio/technokriak-mobile@2x.jpg 2x" media="(min-width: 480px)">
+                          <img class="portfolio-projects-img" src="./photos/portfolio/technokriak-mobile.jpg" 
                      alt="сайт на ноутбуке">
+                      </picture>
+                      
                       <p class="overlay" >Технокряк это современная площадка распространения коронавируса. Компании используют эту платформу для цифрового шпионажа и атак на защищённые сервера конкурентов.</p>
                   </div> 
                     <h3 class="portfolio-projects-title">Технокряк</h3>
@@ -95,8 +100,14 @@
                 </li>
                 <li class="portfolio-projects-item">
                   <div class="portfolio-projects-item-wrapper">
-                    <img class="portfolio-projects-img" src="./photos/portfolio/poster_new_orlean.png"
+                    <picture>
+                      <source srcset="./photos/portfolio/poster-new-orlean-descktop.png 1x, ./photos/portfolio/poster-new-orlean-descktop@2x.jpg 2x" media="(min-width: 1200px)">
+                      <source srcset="./photos/portfolio/poster-new-orlean-tablet.jpg 1x, ./photos/portfolio/poster-new-orlean-tablet@2x.jpg 2x" media="(min-width: 768px)">
+                      <source srcset="./photos/portfolio/poster-new-orlean-mobile.jpg 1x, ./photos/portfolio/poster-new-orlean-mobile@2x.jpg 2x" media="(min-width: 480px)">
+                        <img class="portfolio-projects-img" src="./photos/portfolio/poster-new-orlean-mobile.jpg"
                      alt="двое мужчин с мячем">
+                    </picture>
+                    
                      <p class="overlay"> Постер это современная площадка распространения коронавируса. Компании используют эту платформу для цифрового шпионажа и атак на защищённые сервера конкурентов.</p>
                     </div>
                     <h3 class="portfolio-projects-title">Постер <span lang="en">New Orlean vs Golden Star</span></h3>
@@ -104,8 +115,14 @@
                 </li>
                 <li class="portfolio-projects-item">
                   <div class="portfolio-projects-item-wrapper">
-                    <img class="portfolio-projects-img" src="./photos/portfolio/restaurant_seafood.png"
+                    <picture>
+                      <source srcset="./photos/portfolio/restaurant-seafood-descktop.png 1x, ./photos/portfolio/restaurant-seafood-descktop@2x.jpg 2x" media="(min-width: 1200px)">
+                      <source srcset="./photos/portfolio/restaurant-seafood-tablet.jpg 1x, ./photos/portfolio/restaurant-seafood-tablet@2x.jpg 2x" media="(min-width: 768px)">
+                      <source srcset="./photos/portfolio/restaurant-seafood-mobile.jpg 1x, ./photos/portfolio/restaurant-seafood-mobile@2x.jpg 2x" media="(min-width: 480px)">
+                        <img class="portfolio-projects-img" src="./photos/portfolio/restaurant-seafood-mobile.jpg"
                      alt="логотип ресторана морепродуктов">
+                    </picture>
+
                      <p class="overlay"> Ресторан Seafood это современная площадка распространения коронавируса. Компании используют эту платформу для цифрового шпионажа и атак на защищённые сервера конкурентов.</p>
                   </div>   
                     <h3 class="portfolio-projects-title">Ресторан <span lang="en">Seafood</span></h3>
@@ -113,8 +130,14 @@
                 </li>
                 <li class="portfolio-projects-item">
                   <div class="portfolio-projects-item-wrapper">
-                    <img class="portfolio-projects-img" src="./photos/portfolio/project_prime.png" 
+                    <picture>
+                      <source srcset="./photos/portfolio/project-prime-descktop.png 1x, ./photos/portfolio/project-prime-descktop@2x.jpg 2x" media="(min-width: 1200px)">
+                      <source srcset="./photos/portfolio/project-prime-tablet.jpg 1x, ./photos/portfolio/project-prime-tablet@2x.jpg 2x" media="(min-width: 768px)">
+                      <source srcset="./photos/portfolio/project-prime-mobile.jpg 1x, ./photos/portfolio/project-prime-mobile@2x.jpg 2x" media="(min-width: 480px)">
+                        <img class="portfolio-projects-img" src="./photos/portfolio/project-prime-mobile.jpg" 
                      alt="большие наушники">
+                    </picture>                 
+
                      <p class="overlay">Проект Prime это современная площадка распространения коронавируса. Компании используют эту платформу для цифрового шпионажа и атак на защищённые сервера конкурентов.</p>
                   </div> 
                     <h3 class="portfolio-projects-title">Проект <span lang="en">Prime</span></h3>
@@ -122,8 +145,14 @@
                 </li>
                 <li class="portfolio-projects-item">
                   <div class="portfolio-projects-item-wrapper">
-                    <img class="portfolio-projects-img" src="./photos/portfolio/project_boxes.png"
+                    <picture>
+                      <source srcset="./photos/portfolio/project-boxes-descktop.png 1x, ./photos/portfolio/project-boxes-descktop@2x.jpg 2x" media="(min-width: 1200px)">
+                      <source srcset="./photos/portfolio/project-boxes-tablet.jpg 1x, ./photos/portfolio/project-boxes-tablet@2x.jpg 2x" media="(min-width: 768px)">
+                      <source srcset="./photos/portfolio/project-boxes-mobile.jpg 1x, ./photos/portfolio/project-boxes-mobile@2x.jpg 2x" media="(min-width: 480px)">
+                        <img class="portfolio-projects-img" src="./photos/portfolio/project-boxes-mobile.jpg"
                      alt="две коробки">
+                    </picture>
+                    
                      <p class="overlay">Проект Boxes это современная площадка распространения коронавируса. Компании используют эту платформу для цифрового шпионажа и атак на защищённые сервера конкурентов.</p>
                   </div> 
                     <h3 class="portfolio-projects-title">Проект <span lang="en">Boxes</span></h3>
@@ -131,8 +160,14 @@
                 </li>
                 <li class="portfolio-projects-item">
                   <div class="portfolio-projects-item-wrapper">
-                    <img class="portfolio-projects-img" src="./photos/portfolio/inspiration_has_no_border.png" 
+                    <picture>
+                      <source srcset="./photos/portfolio/inspiration-has-no-border-descktop.png 1x, ./photos/portfolio/inspiration-has-no-border-descktop@2x.jpg 2x" media="(min-width: 1200px)">
+                      <source srcset="./photos/portfolio/inspiration-has-no-border-tablet.jpg 1x, ./photos/portfolio/inspiration-has-no-border-tablet@2x.jpg 2x" media="(min-width: 768px)">
+                      <source srcset="./photos/portfolio/inspiration-has-no-border-mobile.jpg 1x, ./photos/portfolio/inspiration-has-no-border-mobile@2x.jpg 2x" media="(min-width: 480px)">
+                        <img class="portfolio-projects-img" src="./photos/portfolio/inspiration-has-no-border-mobile.jpg" 
                     alt="сайт на мониторе">
+                    </picture>
+                    
                     <p class="overlay" >Inspiration has no Borders это современная площадка распространения коронавируса. Компании используют эту платформу для цифрового шпионажа и атак на защищённые сервера конкурентов.</p>
                   </div> 
                     <h3 lang="en" class="portfolio-projects-title">Inspiration has no Borders</h3>
@@ -140,8 +175,14 @@
                 </li>
                 <li class="portfolio-projects-item">
                   <div class="portfolio-projects-item-wrapper">
-                    <img class="portfolio-projects-img" src="./photos/portfolio/limited_edition.png" 
+                    <picture>
+                      <source srcset="./photos/portfolio/limited-edition-descktop.png 1x, ./photos/portfolio/limited-edition-descktop@2x.jpg 2x" media="(min-width: 1200px)">
+                      <source srcset="./photos/portfolio/limited-edition-tablet.jpg 1x, ./photos/portfolio/limited-edition-tablet@2x.jpg 2x" media="(min-width: 768px)">
+                      <source srcset="./photos/portfolio/limited-edition-mobile.jpg 1x, ./photos/portfolio/limited-edition-mobile@2x.jpg 2x" media="(min-width: 480px)">
+                        <img class="portfolio-projects-img" src="./photos/portfolio/limited-edition-mobile.jpg" 
                     alt="открытая книга с картинками и текстом">
+                    </picture>
+
                     <p class="overlay">Издание Limited Edition это современная площадка распространения коронавируса. Компании используют эту платформу для цифрового шпионажа и атак на защищённые сервера конкурентов.</p>
                   </div> 
                     <h3 class="portfolio-projects-title">Издание <span lang="en">Limited Edition</span></h3>
@@ -149,8 +190,14 @@
                 </li>
                 <li class="portfolio-projects-item">
                   <div class="portfolio-projects-item-wrapper">
-                    <img class="portfolio-projects-img" src="./photos/portfolio/project_lab.png" 
+                    <picture>
+                      <source srcset="./photos/portfolio/project-lab-descktop.png 1x, ./photos/portfolio/project-lab-descktop@2x.jpg 2x" media="(min-width: 1200px)">
+                      <source srcset="./photos/portfolio/project-lab-tablet.jpg 1x, ./photos/portfolio/project-lab-tablet@2x.jpg 2x" media="(min-width: 768px)">
+                      <source srcset="./photos/portfolio/project-lab-mobile.jpg 1x, ./photos/portfolio/project-lab-mobile@2x.jpg 2x" media="(min-width: 480px)">
+                        <img class="portfolio-projects-img" src="../photos/portfolio/project-lab-mobile.jpg" 
                      alt="ярлык с надписью">
+                    </picture>
+                    
                      <p class="overlay" >Проект LAB это современная площадка распространения коронавируса. Компании используют эту платформу для цифрового шпионажа и атак на защищённые сервера конкурентов.</p>
                   </div> 
                     <h3 class="portfolio-projects-title">Проект <span lang="en">LAB</span></h3>
@@ -158,15 +205,21 @@
                 </li>
                 <li class="portfolio-projects-item">
                   <div class="portfolio-projects-item-wrapper">
-                    <img class="portfolio-projects-img" src="./photos/portfolio/growing_business.png" 
+                    <picture>
+                      <source srcset="./photos/portfolio/growing-business-descktop.png 1x, ./photos/portfolio/growing-business-descktop@2x.jpg 2x" media="(min-width: 1200px)">
+                      <source srcset="./photos/portfolio/growing-business-tablet.jpg 1x, ./photos/portfolio/growing-business-tablet@2x.jpg 2x" media="(min-width: 768px)">
+                      <source srcset="./photos/portfolio/growing-business-mobile.jpg 1x, ./photos/portfolio/growing-business-mobile@2x.jpg 2x" media="(min-width: 480px)">
+                        <img class="portfolio-projects-img" src="./photos/portfolio/growing-business-mobile.jpg" 
                      alt="ноутбук с открытым сайтом">
+                    </picture>
+                    
                      <p class="overlay">Проект Growing Business это современная площадка распространения коронавируса. Компании используют эту платформу для цифрового шпионажа и атак на защищённые сервера конкурентов.</p>
                   </div> 
                     <h3 lang="en" class="portfolio-projects-title">Growing Business</h3>
                     <p class="portfolio-projects-type">Приложение</p>
                 </li>
             </ul>
-          </div>
+          </div> -->
           
      </section>
   </main>
@@ -174,8 +227,11 @@
   <!--FOOTER-->
   <footer class="footer">
     <div class="container">
-    <div class="footer-container">
-      <a class="footer-logo link" href="./index.html" aria-label="логотип WebStudio"><span class="logo-web">Web</span>Studio</a>
+      <div class="logo-and-social-wrapper">
+       <div class="footer-container">
+        <div class="footer-logo-container">
+          <a class="footer-logo link" href="./index.html" aria-label="логотип WebStudio"><span class="logo-web">Web</span>Studio</a>
+       </div>
       <address class="address">
           <ul class="footer-list">
               <li class="footer-list-item list">
@@ -226,6 +282,8 @@
         </li>
       </ul>
     </div>
+  </div>
+
     <div class="footer-form-container">
       <h3 class="footer-subtitle">Подпишитесь на рассылку</h3>
       <form action="#">

@@ -10,10 +10,19 @@
 </head>
 <body>
     <!--HEADER-->
-    <!-- <header class="header">
+    <header class="header">
         <div class="container">
           <nav class="navigation">
             <a class="header-logo link" href="./index.html" aria-label="логотип WebStudio"><span class="logo-web">Web</span>Studio</a>
+            
+            <button type="button" class="header-menu-btn" aria-controls="menu-container" data-menu-button>
+            <svg width="40px" height="40px" class="header-menu-svg">
+              <use class="icon-menu" href="./sprite.svg#icon-menu"></use>
+              <use class="icon-close" href="./sprite.svg#icon-close"></use>
+            </svg>
+          </button>
+
+          <div class="menu-container" id="menu-container"data-menu>
             <ul class="nav-list">
                  <li class="nav-list-item current-item list">
                     <a class="link header-list-link studio-link" href="./index.html">Студия</a>
@@ -26,6 +35,7 @@
                 </li>
             </ul>    
           </nav>
+          <div>
           <address class="address">
             <ul class="address-list">
                <li class="list address-list-item">
@@ -44,22 +54,23 @@
               </li>
            </ul>
       </address>
+     </div>
     </div>  
-    </header> -->
+    </header>
 
     <!--MAIN-->
   <main class="main">
 
       <!--HERO-->
-        <!-- <section class="hero"> 
+        <section class="hero"> 
           <div class="container">
             <h1 class="hero-title">ЭФФЕКТИВНЫЕ  РЕШЕНИЯ <br> ДЛЯ ВАШЕГО БИЗНЕСА</h1>
             <button data-modal-open class="hero-button" type="button">Заказать услугу</button>             
           </div>
-        </section> -->
+        </section>
     
         <!--FEATURES-->
-        <!-- <section class="features">
+        <section class="features">
           <div class="container">
             <h2 hidden>Наши преимущества</h2>
             <ul class="features-list">
@@ -84,10 +95,10 @@
                 </li>
             </ul>
           </div>
-        </section> -->
+        </section>
 
         <!--KINDS OF WORK-->
-        <!-- <section class="kinds-work">
+        <section class="kinds-work">
           <div class="container">
                 <h2 class="subtitle" >Чем мы занимаемся</h2>
              <ul class="kinds-work-list">
@@ -130,10 +141,10 @@
               </ul>
             </div>
             
-        </section> -->
+        </section>
 
         <!--OUR TEAM-->
-        <!-- <section class="team">
+        <section class="team">
           <div class="container">
             <h2 class="subtitle" >Наша команда</h2>
                 <ul class="team-list">
@@ -310,7 +321,7 @@
                 </ul>
             </div>
             
-        </section> -->
+        </section>
 
         <!--CLIENTS-->
         <section class="clients">
@@ -365,10 +376,13 @@
     </main>
 
     <!--FOOTER-->
-    <!-- <footer class="footer">
+    <footer class="footer">
       <div class="container">
-      <div class="footer-container">
-        <a class="footer-logo link" href="./index.html" aria-label="логотип WebStudio"><span class="logo-web">Web</span>Studio</a>
+        <div class="logo-and-social-wrapper">
+         <div class="footer-container">
+          <div class="footer-logo-container">
+            <a class="footer-logo link" href="./index.html" aria-label="логотип WebStudio"><span class="logo-web">Web</span>Studio</a>
+         </div>
         <address class="address">
             <ul class="footer-list">
                 <li class="footer-list-item list">
@@ -419,6 +433,8 @@
           </li>
         </ul>
       </div>
+    </div>
+
       <div class="footer-form-container">
         <h3 class="footer-subtitle">Подпишитесь на рассылку</h3>
         <form action="#">
@@ -432,9 +448,9 @@
 
       </div>
     </div>   
-    </footer> -->
+    </footer>
 
-    <!-- <div data-modal class="backdrop is-hidden">
+    <div data-modal class="backdrop is-hidden">
       <div class="modal-wrapper">
         <div class="modal">
           <button data-modal-close class="close-btn" type="button">
@@ -488,9 +504,10 @@
 
         </div>
       </div>
-    </div> -->
+    </div>
 
-    <!-- <script src="./js/modal.js"></script> -->
+    <script src="./js/modal.js"></script>
+    <script src="./js/menu.js"></script>
 </body>
 
 </html>
